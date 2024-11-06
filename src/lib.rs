@@ -18,6 +18,7 @@ pub mod key;
 pub mod logging;
 mod macros;
 mod utils;
+mod defrag;
 
 pub use crate::context::blocked::BlockedClient;
 pub use crate::context::thread_safe::{
